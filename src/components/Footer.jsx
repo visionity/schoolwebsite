@@ -1,7 +1,7 @@
 // components/Footer.js
 import React from 'react';
 import Link from 'next/link';
-import { Map, Phone, Mail, Clock, Facebook, Twitter, Instagram, Youtube, ArrowUp } from 'lucide-react';
+// import { Map, Phone, Mail, Clock, Facebook, Twitter, Instagram, Youtube, ArrowUp } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -30,22 +30,22 @@ const Footer = () => {
             
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
-                <Map className="w-5 h-5 text-blue-300 mt-1 flex-shrink-0" />
+                {/* <Map className="w-5 h-5 text-blue-300 mt-1 flex-shrink-0" /> */}
                 <p className="text-sm text-blue-100">123 Education Street, Knowledge City, State - 123456</p>
               </div>
               
               <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-blue-300 flex-shrink-0" />
+                {/* <Phone className="w-5 h-5 text-blue-300 flex-shrink-0" /> */}
                 <p className="text-sm text-blue-100">+91 98765 43210</p>
               </div>
               
               <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-blue-300 flex-shrink-0" />
+                {/* <Mail className="w-5 h-5 text-blue-300 flex-shrink-0" /> */}
                 <p className="text-sm text-blue-100">info@schoolname.edu</p>
               </div>
               
               <div className="flex items-start space-x-3">
-                <Clock className="w-5 h-5 text-blue-300 mt-1 flex-shrink-0" />
+                {/* <Clock className="w-5 h-5 text-blue-300 mt-1 flex-shrink-0" /> */}
                 <p className="text-sm text-blue-100">
                   Monday to Friday: 8:00 AM - 3:30 PM<br />
                   Saturday: 8:00 AM - 12:30 PM
@@ -139,10 +139,10 @@ const Footer = () => {
             <h4 className="font-medium text-white mb-4">Follow Us:</h4>
             <div className="flex space-x-3">
               {[
-                { Icon: Facebook, href: "#" },
-                { Icon: Twitter, href: "#" },
-                { Icon: Instagram, href: "#" },
-                { Icon: Youtube, href: "#" }
+                // { Icon: Facebook, href: "#" },
+                // { Icon: Twitter, href: "#" },
+                // { Icon: Instagram, href: "#" },
+                // { Icon: Youtube, href: "#" }
               ].map((social, index) => (
                 <a 
                   key={index}
@@ -162,7 +162,7 @@ const Footer = () => {
             onClick={scrollToTop}
             className="bg-blue-600 hover:bg-blue-500 p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 active:scale-95"
           >
-            <ArrowUp className="w-5 h-5" />
+            {/* <ArrowUp className="w-5 h-5" /> */}
           </button>
         </div>
         
