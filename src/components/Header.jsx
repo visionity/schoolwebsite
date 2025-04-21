@@ -50,13 +50,13 @@ const Header = () => {
       name: 'Academics', 
       path: '/academics',
       dropdown: [
-        { name: 'Class 10', path: '/class-10' },
-        { name: 'Class 12', path: '/class-12' },
-        { name: 'Curriculum', path: '/curriculum' },
+        { name: 'Class 10', path: '/academics' },
+        { name: 'Class 12', path: '/academics' },
+        { name: 'Curriculum', path: '/academics' },
       ]
     },
-    { name: 'Admissions', path: '/admissions' },
-    { name: 'Results', path: '/results' },
+    { name: 'Admission', path: '/admission' },
+    { name: 'Result', path: '/results' },
     { name: 'Fees', path: '/fees' },
     { name: 'Blog', path: '/blog' },
     { name: 'Contact', path: '/contact' },
